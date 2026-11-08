@@ -1,0 +1,55 @@
+/* universe, priority: 5 */
+* {
+    color: rgb(0, 255, 255);
+}
+
+/* tag name, priority: 4 */
+p {
+    color: rgb(0, 255, 76);
+}
+
+/* class name, priority: 3 */
+.sub-title {
+    color: rgb(0, 107, 128);
+}
+
+/* id name, priority: 2 */
+#sub1 {
+    color: rgb(217, 255, 0);
+}
+
+/* inline code, priority: 1
+vd: style="color:blueviolet"
+*/
+
+
+
+body {
+    padding:0 20%;
+    margin: 0;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/42870e100875187.5f14961601049.gif");
+    overflow: hidden;
+
+
+}
+
+.avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px dotted rgba(128, 98, 0, 0.452);
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+.avatar:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
