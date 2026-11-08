@@ -1,6 +1,6 @@
 /* universe, priority: 5 */
 * {
-    color: rgb(0, 255, 255);
+    color: rgb(255, 145, 0);
 }
 
 /* tag name, priority: 4 */
@@ -29,8 +29,11 @@ body {
     margin: 0;
     background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/42870e100875187.5f14961601049.gif");
     overflow: hidden;
-
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
 }
 
 .avatar {
